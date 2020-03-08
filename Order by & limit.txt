@@ -1,0 +1,6 @@
+// 2020, 3/08, by Queenie Chen
+// DBA, Logic
+
+SELECT *
+FROM Customers
+ORDER BY CustomerID LIMIT 3;
