@@ -1,0 +1,14 @@
+// 2020, 3/08, by Queenie Chen
+// DBA 
+
+
+CREATE TABLE qtb
+(
+    id int unsigned auto_increment NOT NULL,
+    name varchar(100) NOT NULL,
+    mail varchar(100)NOT NULL,
+    PRIMAREY KEY (id)
+
+);
+
+SELECT * FROM qtb WHERE name="eric";
