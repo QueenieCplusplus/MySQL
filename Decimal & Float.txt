@@ -1,0 +1,27 @@
+// 2020, 3/08, by Queenie Chen
+// DBA, Data Type
+
+
+// 十進制
+
+Decimal ＝ Numeric
+
+DECIMAL( precision, scale)
+price DECIMAL(5, 2)
+
+-999.99 t0 999.99
+
+px DECIMAL(6,1)
+
+-99999.9 to 99999.9
+
+salary DECIMAL(4)
+
+-9999 to 9999
+
+
+
+// 精準度與雙倍精準度
+
+FLOAT save more space instead of DOUBLE
+
