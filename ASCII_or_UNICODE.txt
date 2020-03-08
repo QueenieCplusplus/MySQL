@@ -1,0 +1,20 @@
+// 2020, 3/08, by Queenie Chen
+// DBA 
+
+
+VARCHAR
+
+// strings are hex or ASCII. 
+// American Standard Code for Information Interchange
+
+| binary(bytes) |   Hex    |  UNICODE |
++---------------+----------+----------+
+|    00000110   |    06    |    ACK   |
++---------------+----------+----------+
+|    00011011   |    1B    |    ESC   |
++---------------+----------+----------+
+|    01111111   |    7F    |    DEL   | 
++---------------+----------+----------+
+
+// ASCII 僅適用於西歐語言和英式標點符號和阿拉伯數字，無法支援其他語言
+// 目前可是用 UNICODE
