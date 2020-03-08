@@ -1,0 +1,12 @@
+// 2020, 3/08, by Queenie Chen
+// DBA, Logic
+
+SELECT id FROM stack;
+
+SELECT * FROM stack WHERE username LIKE "%adm%";
+
+SELECT st.name, st.percentage,
+CASE WHEN st.percentage >= 35 THEN 'Pass' ELSE 'Fail' END AS `Remark` FROM student AS st ;
+
+SELECT st.name, st.percentage,
+IF(st.percentage >= 35, 'Pass', 'Fail') AS `Remark` FROM student AS st ;
