@@ -1,0 +1,20 @@
+// 2020, 3/08, by Queenie Chen
+// DBA 
+
+
+
+CREATE DATABASE qdb;
+
+USE qdb;
+
+CREATE TABLE qtb
+(
+    id int unsigned auto_increment NOT NULL,
+    name varchar(100) NOT NULL,
+    mail varchar(100)NOT NULL,
+    PRIMAREY KEY (id)
+
+);
+
+// varchar == text
+// do not use char, space is limited.
