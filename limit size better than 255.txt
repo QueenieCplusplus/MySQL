@@ -1,0 +1,13 @@
+// 2020, 3/08, by Queenie Chen
+// DBA, Data Type
+
+when a complex SELECT needs to create temporary table 
+it then use the memory engine, putting data in RAM.
+VARCHAR then turn into CHAR in the process,
+it makes VARCHAR(255) SET utf8mb4 take 1020 bytes.
+leads to spill to disk, lower than RAM.
+
+in certain situation, InnoDB will look at the potential size 
+of the column may be too big, then it aborts to create a table.
+
+
